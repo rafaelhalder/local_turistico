@@ -1,0 +1,111 @@
+:root {
+    --text-primary: #1B1B1B;
+    --text-headline: #e1624f;
+    --text-secondary: #333;
+    --accent-purple: purple;
+    --accent-pink: pink;
+    --accent-orange: orange;
+    --accent-blue: blue;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    max-width: 1120px;
+    width: 100%;
+    margin: 88px auto;
+    justify-content: center;
+    padding: 0 20px;
+    color: var(--text-primary);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title_span {
+    color: var(--text-headline);
+    font-weight: bold;
+}
+
+.title_ul {
+    color: var(--text-secondary);
+    font-weight: bold;
+}
+
+.text_blue {
+    color: var(--accent-blue);
+}
+
+.text_orange {
+    color: var(--accent-orange);
+}
+
+.text_pink {
+    color: var(--accent-pink);
+}
+
+.text_purple {
+    color: var(--accent-purple);
+}
+
+.margin_image {
+    margin-bottom: 24px;
+}
+
+.images_margin {
+    margin-bottom: 20px;
+}
+
+.title_margin {
+    margin-bottom: 8px;
+}
+
+footer div {
+    text-align: center;
+}
+
+.title p {
+    padding-bottom: 8px;
+}
+
+.app_first {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.app_second {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.app_main {
+    gap: 40px;
+}
+
+.title_gap {
+    gap: 8px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.divisor {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: var(--text-secondary);
+    text-align: left;
+    line-height: 1.5;
+}
+
+hr {
+    opacity: 0.4;
+}
